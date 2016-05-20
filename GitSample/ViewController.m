@@ -16,9 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
     
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 300, 100)];
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(170, 300, 80, 20)];
     label.text = @"Github";
     
     [self.view addSubview:label];

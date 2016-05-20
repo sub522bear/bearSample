@@ -18,7 +18,7 @@
     [super viewDidLoad];
     
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(170, 300, 80, 20)];
-    label.text = @"Github";
+    label.text = @"Github"; 
     
     [self.view addSubview:label];
 }
